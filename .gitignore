@@ -1,0 +1,5 @@
+
+code/.metadata/*
+code/Jdbc/.settings/org.eclipse.jdt.core.prefs
+code/Jdbc/.project
+code/Jdbc/.classpath

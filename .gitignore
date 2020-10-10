@@ -3,3 +3,18 @@ code/.metadata/*
 code/Jdbc/.settings/org.eclipse.jdt.core.prefs
 code/Jdbc/.project
 code/Jdbc/.classpath
+code/Servers/Tomcat v8.5 Server at localhost-config/tomcat-users.xml
+code/Servers/Tomcat v8.5 Server at localhost-config/server.xml
+code/Servers/Tomcat v8.5 Server at localhost-config/context.xml
+code/Servers/Tomcat v8.5 Server at localhost-config/catalina.properties
+code/Servers/Tomcat v8.5 Server at localhost-config/catalina.policy
+code/Servers/.settings/org.eclipse.wst.server.core.prefs
+code/Servers/.project
+code/First ServletApp/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/First ServletApp/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/First ServletApp/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/First ServletApp/.settings/org.eclipse.wst.common.component
+code/First ServletApp/.settings/org.eclipse.jdt.core.prefs
+code/First ServletApp/.settings/.jsdtscope
+code/First ServletApp/.project
+code/First ServletApp/.classpath

@@ -18,3 +18,12 @@ code/First ServletApp/.settings/org.eclipse.jdt.core.prefs
 code/First ServletApp/.settings/.jsdtscope
 code/First ServletApp/.project
 code/First ServletApp/.classpath
+code/ServletRequestResponse/.classpath
+code/ServletRequestResponse/.project
+code/ServletRequestResponse/.settings/.jsdtscope
+code/ServletRequestResponse/.settings/org.eclipse.jdt.core.prefs
+code/ServletRequestResponse/.settings/org.eclipse.wst.common.component
+code/ServletRequestResponse/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/ServletRequestResponse/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/ServletRequestResponse/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/ServletRequestResponse/WebContent/META-INF/MANIFEST.MF

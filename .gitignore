@@ -27,3 +27,5 @@ code/ServletRequestResponse/.settings/org.eclipse.wst.common.project.facet.core.
 code/ServletRequestResponse/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/ServletRequestResponse/.settings/org.eclipse.wst.jsdt.ui.superType.name
 code/ServletRequestResponse/WebContent/META-INF/MANIFEST.MF
+code/RedirectingServlet/.project
+code/RedirectingServlet/.classpath

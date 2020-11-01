@@ -29,3 +29,11 @@ code/ServletRequestResponse/.settings/org.eclipse.wst.jsdt.ui.superType.name
 code/ServletRequestResponse/WebContent/META-INF/MANIFEST.MF
 code/RedirectingServlet/.project
 code/RedirectingServlet/.classpath
+code/FilterSession/.classpath
+code/FilterSession/.project
+code/FilterSession/.settings/.jsdtscope
+code/FilterSession/.settings/org.eclipse.jdt.core.prefs
+code/FilterSession/.settings/org.eclipse.wst.common.component
+code/FilterSession/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/FilterSession/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/FilterSession/.settings/org.eclipse.wst.jsdt.ui.superType.name

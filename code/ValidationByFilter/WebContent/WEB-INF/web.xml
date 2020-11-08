@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ValidationByFilter</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Number</display-name>
+    <servlet-name>Number</servlet-name>
+    <servlet-class>Number</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Number</servlet-name>
+    <url-pattern>/Number</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Operations</display-name>
+    <servlet-name>Operations</servlet-name>
+    <servlet-class>Operations</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Operations</servlet-name>
+    <url-pattern>/Operations</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>Validate</display-name>
+    <filter-name>Validate</filter-name>
+    <filter-class>Validate</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Validate</filter-name>
+    <servlet-name>Operations</servlet-name>
+  </filter-mapping>
+</web-app>

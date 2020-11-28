@@ -37,3 +37,13 @@ code/FilterSession/.settings/org.eclipse.wst.common.component
 code/FilterSession/.settings/org.eclipse.wst.common.project.facet.core.xml
 code/FilterSession/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/FilterSession/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/.sonarlint/default/.sonartmp_761807422581831663/sonarlint-slf4j-sonar-log6594065695238092617.jar
+code/ToDoApplication/.classpath
+code/ToDoApplication/.project
+code/ToDoApplication/.settings/.jsdtscope
+code/ToDoApplication/.settings/org.eclipse.jdt.core.prefs
+code/ToDoApplication/.settings/org.eclipse.wst.common.component
+code/ToDoApplication/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/ToDoApplication/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/ToDoApplication/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/ToDoApplication/WebContent/META-INF/MANIFEST.MF

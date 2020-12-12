@@ -1,0 +1,38 @@
+Session Management
+
+What is session mamanagement?
+Storing/Manage user information into multiple request.
+
+
+Different Types of Session management
+1. Url Rewritting
+	is use to store user details while we are redirecting from one page to another by anchor tag or by sendRedirect
+2. Hidden Form Field
+	is use to store user details while we are redirecting from one page to another by form submmit button
+3. Cookies
+	is use to store user details at client side
+	Type Of Cookies :
+		1. Persistant Cookies
+			Cookies which save at client for a specific time period
+		2. Non-Persistant Cookies
+			Cookies which save temporary at client and gets deleted after browser close
+			
+	Disadvantages
+		1. Cookies can be disable at client side.
+		2. Can store limited cookies at client side.
+		3. Can only store string type of info by using cookies.
+		
+4. Http Session
+	is use to store user details at server side
+	
+	For One client there can be only one session avaiable for one application
+	
+	HttpSession session = request.getSession(); // To Create new session or get existing session if already existing
+	session.setAttribute("key",value); //to set user data into seession
+	session.getAttribute("key"); //to get user data from session
+	session.invalidate(); // to destory user session
+	
+	//to invalidate(destroy) session automativally after specific time.
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>

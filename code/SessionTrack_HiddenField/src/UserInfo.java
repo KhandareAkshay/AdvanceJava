@@ -23,11 +23,11 @@ public class UserInfo extends HttpServlet {
 		out.print("<center>");
 		out.print("<h3>User Information</h3>");
 		out.print("<form action='UserAddress' method='get'>");
-		out.print("Name : <input type='text' name='title'><br/><br/>");
-		out.print("Email : <input type='text' name='email'><br/><br/>");
-		out.print("Contact : <input type='text' name='contact'><br/><br/>");
-		out.print(
-				"Gender : <input type='radio' name='gender' value='Male'>Male  <input type='radio' name='gender' value='Female'>Female<br/><br/>");
+			out.print("Name : <input type='text' name='title'><br/><br/>");
+			out.print("Email : <input type='text' name='email'><br/><br/>");
+			out.print("Contact : <input type='text' name='contact'><br/><br/>");
+			out.print(
+					"Gender : <input type='radio' name='gender' value='Male'>Male  <input type='radio' name='gender' value='Female'>Female<br/><br/>");
 		out.print("<input type='submit' value='Next'><br/><br/>");
 		out.print("</form>");
 		out.print("</center>");

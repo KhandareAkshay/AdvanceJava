@@ -14,6 +14,21 @@ public class Summery extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 
+		String name = request.getParameter("title");
+		String email = request.getParameter("email");
+		String contact = request.getParameter("contact");
+		String gender = request.getParameter("gender");
+		
+		String addLine1 = request.getParameter("add1");
+		String addLine2 = request.getParameter("add2");
+		String city = request.getParameter("city");
+		String pincode = request.getParameter("pin");
+		
+		String edu = request.getParameter("edu");
+		String passingYear = request.getParameter("passingEdu");
+		String percent = request.getParameter("percent");
+		
+		
 		out.print("<html>");
 		out.print("<head>");
 		out.print("<title>User Edu Info</title>");

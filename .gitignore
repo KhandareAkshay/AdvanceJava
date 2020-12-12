@@ -55,3 +55,11 @@ code/SessionTrack_Cookies/.settings/org.eclipse.wst.common.component
 code/SessionTrack_Cookies/.settings/org.eclipse.wst.common.project.facet.core.xml
 code/SessionTrack_Cookies/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/SessionTrack_Cookies/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/SessionTrack_HttpSession/.project
+code/SessionTrack_HttpSession/.settings/.jsdtscope
+code/SessionTrack_HttpSession/.settings/org.eclipse.jdt.core.prefs
+code/SessionTrack_HttpSession/.settings/org.eclipse.wst.common.component
+code/SessionTrack_HttpSession/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/SessionTrack_HttpSession/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/SessionTrack_HttpSession/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/SessionTrack_HttpSession/.classpath

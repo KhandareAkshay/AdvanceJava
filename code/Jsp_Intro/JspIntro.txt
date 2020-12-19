@@ -13,8 +13,9 @@ Intro Of JSP
 9. No need to provide web.xml entry for jsp pages
 10. by default url pattern of jsp is /FileName.jsp
 
+------------------------
 JSP life cycle
----------------
+------------------------
 1. Translation Stage :- .jsp gets converted into .java(servlet)
 						It happens only once in a life cycle
 2. Compilation Stage :- .java gets comiled and gets .class
@@ -25,3 +26,90 @@ JSP life cycle
 
 5. _jspdestroy()		:- it gets called at the time of server close ot when onject gets destroy.
 						It happens only once in a life cycle
+
+------------------------						
+Scripting Elements/tags
+------------------------
+1. Expression tag :
+	1. is use to display expressions on browser
+	2. The code which provided into expression tag will gets added automatically inside out.print(expression)
+	3. this expression gets added inside _jspService method after translation of page.
+	4. Syntax :
+		<%= java Expression %>
+	5. Example :
+		<%= "10 * 20 =" + (10 * 20)  %>
+
+2. Scriptlet tag :
+	1. is use to write java code inside jsp. i.e declaring variable, any logical etc.
+	2. The code which is provided inside scriptlet tag, gets added inside _jspService method.
+	3. Syntax :
+		<% java Code %> 
+	4. Example :
+		<%
+			int a = 20;
+			int  b = 30;
+			System.out.println("20 + 30 "+(20+30));
+			class Demo{
+				public void display(){
+					System.out.println("I  am  display from Demo innter class");
+				}
+			}
+			Demo d = new Demo();
+			d.display();
+		%>
+		
+3. Declaration tag :
+	1. is use to write java code inside jsp, i.e can create methos, declare instance/static variables
+	2. The code which is provided inside Declaration tag, gets added inside class and outside any method.
+	3. Syntax :
+		<%! java code %>
+	4. Example :
+		<%!
+			static int x = 20;
+			public void display()
+			{
+				System.out.println(" I am Instance method ");	
+			}
+		%>
+
+4. Directive tag :
+	?????
+
+5. Comment tag : 
+	<!-- --> : This tag is use to comment HTML tags
+	<%-- --%> : This tag is use to comment Java code written in jsp.
+
+------------------------						
+implicit Object 
+------------------------
+1. This objects are available inside any JSP page directly.
+2. This objects are present inside _jspService method. 
+3. These object are only use inside scriptlet tag and expression tag. We cannot use this objects inside Declaration tag.
+4. There are total 9 implicit objects.
+	request - HttpServletRequest
+	response - HttpServletResponse
+	session - HttpSession
+	application - ServletContext
+	page - this keyword in java
+	config - ServletConfig
+	exception - Throwable
+	out - JspWriter
+	pageContext - PageContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

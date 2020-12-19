@@ -72,3 +72,12 @@ code/Jsp_Intro/.settings/org.eclipse.wst.common.project.facet.core.xml
 code/Jsp_Intro/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/Jsp_Intro/.settings/org.eclipse.wst.jsdt.ui.superType.name
 code/Jsp_Intro/WebContent/META-INF/MANIFEST.MF
+code/Jsp_ScriptingTagsImplicitObj/.classpath
+code/Jsp_ScriptingTagsImplicitObj/.project
+code/Jsp_ScriptingTagsImplicitObj/.settings/.jsdtscope
+code/Jsp_ScriptingTagsImplicitObj/.settings/org.eclipse.jdt.core.prefs
+code/Jsp_ScriptingTagsImplicitObj/.settings/org.eclipse.wst.common.component
+code/Jsp_ScriptingTagsImplicitObj/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/Jsp_ScriptingTagsImplicitObj/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/Jsp_ScriptingTagsImplicitObj/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/Jsp_ScriptingTagsImplicitObj/WebContent/META-INF/MANIFEST.MF

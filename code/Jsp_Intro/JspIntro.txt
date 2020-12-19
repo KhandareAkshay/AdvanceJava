@@ -1,0 +1,27 @@
+JSP
+===============
+Intro Of JSP
+--------------
+1. Extended version of servlet
+2. Are mostly prefer to create design/ dynamic web pages
+3. stands for Java Server Page
+4. file extenstion is .jsp
+5. Each JSP internally converts into Servlets. 
+6. Inside jsp can use html, java, css, js, jquery
+7. Jsp also known as Java in Html
+8. Jsp pages are present inside web content section of project
+9. No need to provide web.xml entry for jsp pages
+10. by default url pattern of jsp is /FileName.jsp
+
+JSP life cycle
+---------------
+1. Translation Stage :- .jsp gets converted into .java(servlet)
+						It happens only once in a life cycle
+2. Compilation Stage :- .java gets comiled and gets .class
+						It happens only once in a life cycle
+3. _jspinit()			:- It gets called at the time of object creation
+						It happens only once in a life cycle
+4. _jspservice			:- For every request service method gets called
+
+5. _jspdestroy()		:- it gets called at the time of server close ot when onject gets destroy.
+						It happens only once in a life cycle

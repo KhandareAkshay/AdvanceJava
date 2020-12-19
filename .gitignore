@@ -63,3 +63,12 @@ code/SessionTrack_HttpSession/.settings/org.eclipse.wst.common.project.facet.cor
 code/SessionTrack_HttpSession/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/SessionTrack_HttpSession/.settings/org.eclipse.wst.jsdt.ui.superType.name
 code/SessionTrack_HttpSession/.classpath
+code/Jsp_Intro/.classpath
+code/Jsp_Intro/.project
+code/Jsp_Intro/.settings/.jsdtscope
+code/Jsp_Intro/.settings/org.eclipse.jdt.core.prefs
+code/Jsp_Intro/.settings/org.eclipse.wst.common.component
+code/Jsp_Intro/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/Jsp_Intro/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/Jsp_Intro/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/Jsp_Intro/WebContent/META-INF/MANIFEST.MF

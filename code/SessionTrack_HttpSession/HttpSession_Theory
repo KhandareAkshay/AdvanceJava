@@ -8,7 +8,7 @@ Different Types of Session management
 1. Url Rewritting
 	is use to store user details while we are redirecting from one page to another by anchor tag or by sendRedirect
 2. Hidden Form Field
-	is use to store user details while we are redirecting from one page to another by form submmit button
+	is use to store user details while we are redirecting from one page to another by form submit button
 3. Cookies
 	is use to store user details at client side
 	Type Of Cookies :

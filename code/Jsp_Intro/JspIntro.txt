@@ -95,7 +95,9 @@ implicit Object
 	exception - Throwable
 	out - JspWriter
 	pageContext - PageContext
-
+------------------------						
+Expression Language(EL)
+------------------------
 
 
 

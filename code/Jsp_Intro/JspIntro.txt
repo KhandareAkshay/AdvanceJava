@@ -73,7 +73,15 @@ Scripting Elements/tags
 		%>
 
 4. Directive tag :
-	?????
+	are of 3 types
+	a. Page :
+		This tag is use to set content type, import java classes, to set language, to set error page enable/disable,
+		to enable/disable EL, to enable/disable session.
+		<%@page %>
+		
+	b. taglib :
+		This tag is use to include any other tag lib provided by third party.
+		<%@taglib %>
 
 5. Comment tag : 
 	<!-- --> : This tag is use to comment HTML tags
@@ -98,7 +106,33 @@ implicit Object
 ------------------------						
 Expression Language(EL)
 ------------------------
+1. Is use to execute expressions and display output of expression on browser.
+2. For same porpose others options like out.print, Expression tag(<%= Expression %>).
+3. Expression Language has mush more function than other options like runtime exception handling, EL implicit objects.
+Syntax :
+	${Expression}
+Example :
+	${10/5}
 
+Advantage :
+1. All Runtime exceptions handle internally by Elements
+2. All Null values also handle automatically by EL
+3. EL has Implicit objects
+	requestScope
+	sessionScope
+	pageScope
+	applicationScope
+	header
+	headerValues
+	param
+	cookie
+	Example : ${sessionScope.email}
+------------------------						
+JSTL (JSP standard Tag Lib.)
+------------------------
+1. Use to achieve java function by tag
+2. these tag are provided by third party and to use these tag have to use external jar file.
+ 
 
 
 

@@ -107,3 +107,11 @@ code/.sonarlint/modules/JSP_EL_JSTL/issues/index.pb
 code/.sonarlint/modules/ToDoApplication/issues/1/4/1478b5fc5ca1606a417daff686db3fc25619afe0
 code/.sonarlint/modules/ToDoApplication/issues/index.pb
 code/.sonarlint/default/.sonartmp_2637588473317633664/sonarlint-slf4j-sonar-log6309188433843776794.jar
+code/JspServlet_MVC/.classpath
+code/JspServlet_MVC/.project
+code/JspServlet_MVC/.settings/.jsdtscope
+code/JspServlet_MVC/.settings/org.eclipse.jdt.core.prefs
+code/JspServlet_MVC/.settings/org.eclipse.wst.common.component
+code/JspServlet_MVC/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/JspServlet_MVC/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/JspServlet_MVC/.settings/org.eclipse.wst.jsdt.ui.superType.name

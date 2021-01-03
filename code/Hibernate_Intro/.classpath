@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/antlr-runtime-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/asm.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/catalina-ant-6.0.37.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-dbcp-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/freemarker-2.3.13.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-3.2.5.ga.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-annotations-3.4.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-entitymanager-3.4.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/hibernate-tools-3.2.3.GA.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/ognl-2.6.11.jar"/>
+	<classpathentry kind="lib" path="E:/RSSoftTech/Jars/hibernatejar/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

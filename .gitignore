@@ -115,3 +115,6 @@ code/JspServlet_MVC/.settings/org.eclipse.wst.common.component
 code/JspServlet_MVC/.settings/org.eclipse.wst.common.project.facet.core.xml
 code/JspServlet_MVC/.settings/org.eclipse.wst.jsdt.ui.superType.container
 code/JspServlet_MVC/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/.sonarlint/modules/JSP_EL_JSTL/issues/b/a/bae6032b070f14ff7a293684453d4c5b3f11f7f7
+code/.sonarlint/modules/JSP_EL_JSTL/issues/6/8/68d46fb90223be7005e8f7157b47d90dba1f1f45
+code/.sonarlint/modules/JSP_EL_JSTL/issues/3/0/309344279cc50d876a0f9324274834de17543c46

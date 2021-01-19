@@ -24,12 +24,12 @@ public class Main {
 					/*session.persist(stud);*/
 					
 					//=============to select data==============
-					/*Student s = (Student) session.get(Student.class, 3);
+					/*Student s = (Student) session.get(Student.class, 3);// Egare Fetch 
 					System.out.println(s.getName());
 					System.out.println(s.getEmail());*/
 					
 					
-					/*Student s = (Student) session.load(Student.class, 3);
+					/*Student s = (Student) session.load(Student.class, 3);// Lazy Fetch
 					System.out.println(s.getName());
 					System.out.println(s.getEmail());*/
 					

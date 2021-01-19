@@ -20,7 +20,6 @@ public class Main {
 		Session session = sf.openSession();
 		Transaction trx = session.beginTransaction();
 		
-		
 		session.save(stud);
 		
 		trx.commit();

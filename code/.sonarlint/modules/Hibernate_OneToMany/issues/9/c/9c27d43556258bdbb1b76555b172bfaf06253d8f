@@ -1,0 +1,8 @@
+
+xsquid:UselessImportCheck
+"7Remove this unused import 'javax.persistence.OneToOne'.(ÿΩÔ‚8äö—ÓÚ.Hù
+RMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.Hî
+RMINORZ
+CODE_SMELL

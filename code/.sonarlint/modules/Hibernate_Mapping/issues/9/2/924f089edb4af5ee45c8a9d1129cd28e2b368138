@@ -1,0 +1,33 @@
+
+q
+squid:S106""9Replace this use of System.out or System.err by a logger.(½ÑŞ¯şÿÿÿÿ8™£„îò.H
+RMAJORZ
+CODE_SMELL
+l
+squid:S106$"9Replace this use of System.out or System.err by a logger.(éèñĞ8€‡–îò.H
+RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿƒı§üÿÿÿÿ8ãË„îò.H
+RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ì¦äÚıÿÿÿÿ8àıíò.H…
+RMAJORZ
+CODE_SMELL
+l
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ú§ÂÙ8™£„îò.HŒ
+RMAJORZ
+CODE_SMELL
+k
+squid:S106%"9Replace this use of System.out or System.err by a logger.(íÀ¡"8€‡–îò.H‘
+RMAJORZ
+CODE_SMELL
+l
+squid:S106&"9Replace this use of System.out or System.err by a logger.(†òîÃ8€‡–îò.H’
+RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H‚
+RMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(³€ñ˜8‚†­îò.H“
+RMAJORZ
+CODE_SMELL

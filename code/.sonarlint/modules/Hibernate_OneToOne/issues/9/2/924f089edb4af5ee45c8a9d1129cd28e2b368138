@@ -1,0 +1,19 @@
+
+xsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(’Ë£ÝHÞ	RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ˆÕäÝHß	RMAJORZ
+CODE_SMELL
+e
+squid:S106/"9Replace this use of System.out or System.err by a logger.(õúþÝHà	RMAJORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ÌªûõüÿÿÿÿHá	RMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ÈîâýÿÿÿÿHâ	RMAJORZ
+CODE_SMELL
+e
+squid:S1062"9Replace this use of System.out or System.err by a logger.(•û­õHã	RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.Hä	RMINORZ
+CODE_SMELL

@@ -3,6 +3,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
@@ -12,6 +14,9 @@ import javax.persistence.Table;
 		@NamedQuery(name="updateStudentEmail",query="update Student set email=:e where id=:i"),
 		@NamedQuery(name="selectAllStudent",query="from Student")
 })
+/*@NamedNativeQueries(value = {
+		@NamedNativeQuery(name="updateStudentEmail", query="update studinfo set email=:e where studid=:i")
+})*/
 @Entity
 @Table(name = "studinfo")
 public class Student {

@@ -1,0 +1,57 @@
+Spring Framework
+=====================
+1. Intro
+	a. ICO and DI(Dependancy Injection)
+	b. Is easy to integrate with other framework, that is why Spring is also known as Framework of Framework
+	c. Loose Coupling (Due to DI)
+	d. Faster for development
+	e. Only configuration is an issue in Spring (it is resolve in Spring Boot)
+	f. spring has multiple modules
+	
+Ref : https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/overview.html	
+
+2. Dependancy Injection
+	a. Bean Creation
+		Add java class entry inside spring configuration file
+	b. Get Object of bean classes by Spring
+		By using getBean method of container and have to provide id to get Object of bean class 
+	c. Scope of bean 
+		Can control Object creation by spring bean scope
+		There are total 5 types of scope
+			1. Singleton -> is the default, Only One object gets create for per container and of given id. It is majorly use for core applications
+			2. prototytpe -> it will always create a new object whenever requet to a container. It is majorly use for core applications
+			3. request -> It will create new object for each and every request, it is mostly use for web applications
+			4. session -> It will create new object for each and every session, it is mostly use for web applications
+			5. globalsession(application) -> It will create only one object for an application, it is mostly use for web applications
+	d. IOC container
+		Containers are use to create and hold object of bean classes and maintaine life cycle of bean classes.
+		Two type of Container
+			1. BeanFactory
+				Bean factory is use for small appliaction of spring or spring core projects.
+				It dose not support some of the functionalities like transaction and aspects.
+				Syntax : 	Resource resource = new ClassPathResource("SpringConfigFile.xml");
+							BeanFactory container = new XmlBeanFactory(resource);
+							
+			2. ApplicationContxt
+				Application context is use for large application like web application.
+				It supports all the spring functionalities.
+				Syntax : ApplicationContext container = new ClassPathXmlApplicationContext("SpringConfigFile.xml");
+				
+	e. DI by SI
+	f. DI by CI
+	g. Autowire
+	
+	Required jar for Spring Core
+		commons-logging-1.2.jar
+		spring-beans-4.3.1.RELEASE.jar
+		spring-context-4.3.1.RELEASE.jar
+		spring-core-4.3.1.RELEASE.jar
+		spring-expression-4.3.1.RELEASE.jar
+	
+3. Spring JDBC
+	Connect with Database using Spring
+4. Spring ORM
+	Spring and hibernate Integration
+5. Spring MVC
+	Spring Web Application
+	

@@ -1,0 +1,38 @@
+Hibernate 
+==================
+Intro 
+	1. Hibernate is a ORM tool
+	2. It is use to communicate with DB
+
+Hibernate Structure	
+	1. Configuration
+	2. SessionFactory
+	3. Session
+	4. Transaction
+
+Hibernate Configuration
+Entity Classes
+
+Methods to perform DML operation
+	1. To insert data into table
+		save(EntityObject), persist(EntityObject)
+	2. To retrieve data from table
+		get(), load()
+	3. To Update Data from table	
+		update(), saveOrUpdate()
+	3. delete data from table
+		delete()
+
+Query interface
+	1. HQL (Hiibernate Query Language)
+	2. SQL (Structure Query Language)
+	3. NamedQueries (HQL)
+	4. NamedNativeQueries (SQL)
+
+Hibernate Mapping (One way and Bi-directional)
+	1. One to One -> Done
+	2. One to Many  -> Done
+	3. Many to One  -> Done
+	4. Many to Many  -> Done
+===================================
+Hibernate With Web Application(Jsp/Servlet)

@@ -10,7 +10,7 @@ Spring Framework
 	
 Ref : https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/overview.html	
 
-2. Dependancy Injection
+2. Dependancy Injection (Spring IOC)
 	a. Bean Creation
 		Add java class entry inside spring configuration file
 	b. Get Object of bean classes by Spring
@@ -36,10 +36,15 @@ Ref : https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-refere
 				Application context is use for large application like web application.
 				It supports all the spring functionalities.
 				Syntax : ApplicationContext container = new ClassPathXmlApplicationContext("SpringConfigFile.xml");
-				
-	e. DI by SI
-	f. DI by CI
-	g. Autowire
+	e. SI(Setter Injection)
+		Passing a values to an object by calling setter methos is called as SI
+	d. CI (constructor Injection)
+		Passing values to an object by calling constructor.
+	f. DI by SI
+		Perform Dependancy Injection by calling a setter method.
+	g. DI by CI
+		Perform Dependancy Injection by calling a constructor.
+	h. Autowire
 	
 	Required jar for Spring Core
 		commons-logging-1.2.jar

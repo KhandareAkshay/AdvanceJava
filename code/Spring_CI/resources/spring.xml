@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="emp" class="Employee">
+		<constructor-arg value="2"></constructor-arg>
+		<constructor-arg value="Abc"></constructor-arg>
+		<constructor-arg value="Abc@gmail.com"></constructor-arg>
+		
+		<constructor-arg>
+			<list>
+				<value>9988009878</value>
+				<value>8978452135</value>
+			</list>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<set>
+				<value>Java</value>
+				<value>Spring</value>
+			</set>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<map>
+				<entry key="998877" value="Pune"></entry>
+			</map>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<props>
+				<prop key="DOB">23-12-1999</prop>
+			</props>
+		</constructor-arg>
+	</bean>
+
+
+</beans>

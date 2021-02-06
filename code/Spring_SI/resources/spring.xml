@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="emp" class="Employee">
+		<property name="id" value="2"></property>
+		<property name="name" value="Abc"></property>
+		<property name="email" value="abc@gmail.com"></property>
+		
+		<property name="contact">
+			<list>
+				<value>9980987654</value>
+				<value>8978452164</value>
+			</list>
+		</property>
+		
+		<property name="skills">
+			<set>
+				<value>Core Java</value>
+				<value>Adv. Java</value>
+				<value>Hibernate</value>
+			</set>
+		</property>
+		
+		<property name="address">
+			<map>
+				<entry key="4009988" value="Pune"></entry>
+				<entry key="678967" value="Mumbai"></entry>
+			</map>
+		</property>
+		
+		<property name="empData">
+			<props>
+				<prop key="DOB">12-Jan-1995</prop>
+				<prop key="PAN">ABC12345CD</prop>
+			</props>
+		</property>
+		
+	</bean>
+
+
+</beans>

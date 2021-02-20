@@ -55,8 +55,18 @@ Ref : https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-refere
 	
 3. Spring JDBC
 	Connect with Database using Spring
+	Have to User 2 Spring build-in classes
+	1. DriverManagerDataSource : It is use to connect with data base by providing DB properties.
+	2. JdbcTemplate : use to Execute Queries. and DriverManagerDataSource has to inject inside JdbcTemplate 
+
 4. Spring ORM
-	Spring and hibernate Integration
+	Spring and hibernate/EJB/JPA Integration
+	1. DriverManagerDataSource : It is use to connect with data base by providing DB properties.
+	2. LocalSessionFactoryBean : Hibernate Configration and it is equal to SessionFactory in hibernate. Hvae to Inject Object od DataSource.
+	3. HibernateTemplate : use to Execute Queries. Have to inject Object of SessionFactory.
+	4. HibernateTransactionManager : Use to Manage Hibernate transaction. Have to inject Sessionfactory.
+
+
 5. Spring MVC
 	Spring Web Application
 	
